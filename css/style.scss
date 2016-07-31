@@ -1,0 +1,52 @@
+$main-color: #fafafa;
+$accent-color: #ff7733;
+$text-color: #686963;
+
+$alt-color: #8aa29e;
+$other-alt-color: #e3f2fd;
+$font-size: 10px; 
+$border-width: 1px;
+$border-radius: 3px;
+
+$content-width: 66vw;
+$content-height: 33vh;
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,900';
+
+
+body {
+    font-size:$font-size;
+    font-family: "Lato", sans-serif;
+    margin-bottom: .5em;
+    padding: 2px;
+    color: $text-color;
+    background-color: $main-color;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+.textField, .markdownOutput {
+    @extend body;
+    @extend .container;
+    border-radius: $border-radius;
+    width: $content-width;
+    height: $content-height;
+    color: $text-color;
+}
+
+.textField {
+    font-family: monospace;
+    border: $border-width solid $accent-color;
+    
+}
+
+p, h1 {
+    margin: 0;
+}
+
+.markdownOutput {
+    background-color: $other-alt-color;
+    border: $border-width solid $text-color; }   

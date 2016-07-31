@@ -1,0 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,900';
+/* line 17, /Users/gcgp88/Documents/Web/markdown-previewer/css/style.scss */
+body, .textField, .markdownOutput {
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: .5em;
+  padding: 2px;
+  color: #686963;
+  background-color: #fafafa; }
+
+/* line 26, /Users/gcgp88/Documents/Web/markdown-previewer/css/style.scss */
+.container, .textField, .markdownOutput {
+  display: flex;
+  flex-direction: column; }
+
+/* line 31, /Users/gcgp88/Documents/Web/markdown-previewer/css/style.scss */
+.textField, .markdownOutput {
+  border-radius: 3px;
+  width: 66vw;
+  height: 33vh;
+  color: #686963; }
+
+/* line 40, /Users/gcgp88/Documents/Web/markdown-previewer/css/style.scss */
+.textField {
+  font-family: monospace;
+  border: 1px solid #ff7733; }
+
+/* line 46, /Users/gcgp88/Documents/Web/markdown-previewer/css/style.scss */
+p, h1 {
+  margin: 0; }
+
+/* line 50, /Users/gcgp88/Documents/Web/markdown-previewer/css/style.scss */
+.markdownOutput {
+  background-color: #e3f2fd;
+  border: 1px solid #686963; }
+
+/*# sourceMappingURL=style.css.map */
